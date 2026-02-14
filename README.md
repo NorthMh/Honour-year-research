@@ -7,6 +7,8 @@ To be complete...
 ## Installation
 ### Create environments
 Asssume you are in the `path/to/this/proj/`.
+
+
 Stable Virtual Camera:
 ```bash
 conda create -n svc python=3.11 -y
