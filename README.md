@@ -5,7 +5,13 @@ This is an official code of XXX.
 To be complete...
 
 ## Installation
-To be complete...
+### create environments
+
+### Replace & Add files
+Please:
+1. replace `main.py`, `model.py` and `utils/lora_utils.py` in the original DiffMorpher folder with the one in `replace/DiffMorpher`.
+2. replace `demo.py` and `seva/geometry.py` in the original stable-virtual-camera folder with the one in `replace/stable-virtual-camera`.
+3. add `get_seg.py` and `feat_matching.py` from `replace/third_party` to `DiffMorpher/third_party/sam3` and `DiffMorpher/third_party/GeoAware-SC` respectively
 ## Usage
 To be complete...
 ## Dateset
