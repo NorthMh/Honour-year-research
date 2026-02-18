@@ -13,6 +13,12 @@ parser.add_argument("--caption_path", type=str, default=os.path.join(BASE_DIR, "
                     help="Caption file (default: %(default)s)")
 args = parser.parse_args()
 
+TYPE_ORDER = {
+    "zoom": 0,
+    "rotate": 1,
+    "": 2,          
+}
+
 def sort_key(fname):
     # "1_0" -> [1,0]
     base = os.path.basename(fname)
